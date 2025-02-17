@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.87169814, g: 0.8308839, b: 0.07072261, a: 1}
   m_FlipX: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Coin: 0
   TimeReduction: 0
-  HealthUp: 0
+  HealthUp: 1
   Colletcable: 1
 --- !u!58 &5061806698975724845
 CircleCollider2D:

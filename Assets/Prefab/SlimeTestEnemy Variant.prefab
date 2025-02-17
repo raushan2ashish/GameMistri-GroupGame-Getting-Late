@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6286460750356336301, guid: 08b7e5b7aab56f24f9fb1e933a16cb98, type: 3}
       propertyPath: m_Constraints
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 545128420680728345, guid: 08b7e5b7aab56f24f9fb1e933a16cb98, type: 3}
       propertyPath: m_Radius
