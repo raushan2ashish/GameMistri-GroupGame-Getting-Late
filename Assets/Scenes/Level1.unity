@@ -5357,7 +5357,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!224 &1643617575
 RectTransform:
@@ -6827,10 +6827,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2094792071}
-  - {fileID: 1643617575}
   - {fileID: 1868970247}
   - {fileID: 915762947}
   - {fileID: 257873352}
+  - {fileID: 1643617575}
   - {fileID: 205231242}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12525,6 +12525,10 @@ PrefabInstance:
     - target: {fileID: 1520407401016569672, guid: ed6646880c4d1c6429b32b4c9ff51c15, type: 3}
       propertyPath: m_Name
       value: Scoreboard
+      objectReference: {fileID: 0}
+    - target: {fileID: 1520407401016569672, guid: ed6646880c4d1c6429b32b4c9ff51c15, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2505141302125787015, guid: ed6646880c4d1c6429b32b4c9ff51c15, type: 3}
       propertyPath: m_Color.b
@@ -30132,9 +30136,25 @@ PrefabInstance:
       propertyPath: m_ReferenceResolution.y
       value: 1080
       objectReference: {fileID: 0}
+    - target: {fileID: 4740743584598078100, guid: 6903cb51c346bd74f8456cb7f418cee3, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740743584598078100, guid: 6903cb51c346bd74f8456cb7f418cee3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740743584598078100, guid: 6903cb51c346bd74f8456cb7f418cee3, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7116992554929001521, guid: 6903cb51c346bd74f8456cb7f418cee3, type: 3}
       propertyPath: m_Name
       value: Player Health Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116992554929001521, guid: 6903cb51c346bd74f8456cb7f418cee3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8901524408671890294, guid: 6903cb51c346bd74f8456cb7f418cee3, type: 3}
       propertyPath: m_Pivot.x

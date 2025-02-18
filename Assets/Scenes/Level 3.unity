@@ -34629,7 +34629,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!224 &1643617575
 RectTransform:
@@ -36877,10 +36877,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3870370173730052935}
-  - {fileID: 1643617575}
   - {fileID: 646639267}
   - {fileID: 915762947}
   - {fileID: 257873352}
+  - {fileID: 1643617575}
   - {fileID: 205231242}
   - {fileID: 1341299524}
   m_Father: {fileID: 0}
