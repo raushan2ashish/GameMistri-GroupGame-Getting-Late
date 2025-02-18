@@ -111,7 +111,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 13
+  m_SortingOrder: 14
   m_Sprite: {fileID: 21300000, guid: 7b64ebf2b3065714d800ba0f3f3c2309, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -184,6 +184,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   attackDamage: 20
+  isShielding: 0
   drawGizmos: 0
   audioManager: {fileID: 0}
 --- !u!95 &310393432315343468
@@ -305,6 +306,7 @@ MonoBehaviour:
   healthSlider: {fileID: 0}
   gameOverPanel: {fileID: 6427930972725831690, guid: fd931387b4bf4f44b8a137cd39a52c7f, type: 3}
   audioManager: {fileID: 8386934347775184407, guid: ce3363feb338dcc448fefdfe95098ac6, type: 3}
+  playerControl: {fileID: 0}
 --- !u!1 &8960848320615197768
 GameObject:
   m_ObjectHideFlags: 0
