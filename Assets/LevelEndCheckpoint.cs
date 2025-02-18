@@ -19,7 +19,7 @@ public class LevelEndCheckpoint : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // Display the time taken
-            float timeTaken = Time.timeSinceLevelLoad; // Get the time taken since the level started
+            float timeTaken = Time.timeSinceLevelLoad; // time taken since the level started
             timeText.text = "Time Taken: " + timeTaken.ToString("F2") + " seconds";
 
             // Show the checkpoint panel
@@ -48,7 +48,7 @@ public class LevelEndCheckpoint : MonoBehaviour
         }
         else
         {
-            Debug.Log("No more levels!"); // Optional: Show a UI message if last level is reached
+            Debug.Log("No more levels!"); //UI message if last level is reached
         }
     }
 }
