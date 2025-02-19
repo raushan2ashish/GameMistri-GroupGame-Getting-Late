@@ -18160,6 +18160,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5131343566998417072, guid: 2364b8d2181ef1848bf9f1b7e55a329d, type: 3}
+      propertyPath: CollectableLimit
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 5427875954515180531, guid: 2364b8d2181ef1848bf9f1b7e55a329d, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 627
