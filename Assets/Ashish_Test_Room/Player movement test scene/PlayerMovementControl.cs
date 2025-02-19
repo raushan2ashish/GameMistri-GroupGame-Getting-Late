@@ -212,7 +212,7 @@ public class PlayerMovementControl : MonoBehaviour
             // Damage them
             foreach (Collider2D enemy in hitEnemies)
             {
-                  enemy.GetComponent<EnemeyObsticaleHitMarker>().TakeDamage(attackDamage);
+                enemy.GetComponent<EnemeyObsticaleHitMarker>().TakeDamage(attackDamage);
             }
 
             // Reset attack state after a short delay
