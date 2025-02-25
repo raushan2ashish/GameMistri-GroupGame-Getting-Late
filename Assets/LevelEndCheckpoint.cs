@@ -6,7 +6,7 @@ public class LevelEndCheckpoint : MonoBehaviour
 {
     public GameObject checkpointPanel; // Reference to the checkpoint UI panel
     public Text timeText; // Reference to the UI text to display the time
-    //public Text ScoreText; //Should show score
+    public Text ScoreText; //Should show score
     public Button nextLevelButton; // Reference to the button to move to the next level
 
     private void Start()
@@ -14,7 +14,6 @@ public class LevelEndCheckpoint : MonoBehaviour
         // Ensure the panel is hidden at the start
         checkpointPanel.SetActive(false);
     }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -23,7 +22,10 @@ public class LevelEndCheckpoint : MonoBehaviour
             float timeTaken = Time.timeSinceLevelLoad; // time taken since the level started
             float TextTime =  Mathf.Round(timeTaken * 10.0f) * 0.1f;
             timeText.text = "Time Taken: " + TextTime.ToString("F2") + " seconds";
-            //ScoreText.text = "Score:";
+            ScoreText.text = "Score:" + FindAnyObjectByType<Scoreboard>().Score;
+           
+   
+            //Debug.Log(FindAnyObjectByType<Scoreboard>().Score);
 
             // Show the checkpoint panel
             checkpointPanel.SetActive(true);

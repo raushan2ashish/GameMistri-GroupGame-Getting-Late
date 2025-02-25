@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Scoreboard : MonoBehaviour
 {
-    int Score;
+    public int Score;
 
     public int CoinValue;
     public int TimeValue;
