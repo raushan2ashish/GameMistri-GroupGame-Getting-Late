@@ -32,6 +32,9 @@ public class PlayerMovementControl : MonoBehaviour
     public LayerMask enemyLayer;
     public int attackDamage = 20;
     private bool isAttacking = false; // New boolean for attack animation
+    public Collider2D attackBox;
+    [SerializeField] public GameObject weapon;
+    [SerializeField] public float attackPos = 1.5f;
 
     // Ladder Climbing
     private bool isClimbing = false;
@@ -85,6 +88,8 @@ public class PlayerMovementControl : MonoBehaviour
     {
         if (isDead) return;
 
+        //update weapon position
+        weapon.transform.position = transform.position + new Vector3(attackPos, 0);
 
         HandleMovement();
         HandleJump();
@@ -201,7 +206,10 @@ public class PlayerMovementControl : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F) && !isAttacking)
         {
+            
+            
             isAttacking = true;
+            weapon.GetComponent<WeaponAreaScript>().AttackSwitchFunc();
             animator.SetBool("IsAttacking", true);
             audioManager.PlaySFX(audioManager.attack);
 
@@ -224,6 +232,7 @@ public class PlayerMovementControl : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f); // Adjust the delay to match the attack animation duration
         isAttacking = false;
+        weapon.GetComponent<WeaponAreaScript>().AttackSwitchFunc();
         animator.SetBool("IsAttacking", false);
     }
 
@@ -363,6 +372,7 @@ public class PlayerMovementControl : MonoBehaviour
         Vector3 scale = transform.localScale;
         scale.x *= -1;
         transform.localScale = scale;
+        attackPos = -attackPos;
     }
 
 

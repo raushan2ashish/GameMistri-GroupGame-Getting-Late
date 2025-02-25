@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class EnemeyObsticaleHitMarker : MonoBehaviour
 {
-    [SerializeField] public int health;
-    bool vulnerable;
+    [SerializeField] public int health = 40;
+    
+    private bool vulnerable;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,24 +15,27 @@ public class EnemeyObsticaleHitMarker : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         if (health <= 0)
         {
             Destroy(gameObject);
         }
     }
-    
-    public void OnTriggerEnter2D(Collider2D other) 
+
+    public void OnCollisionEnter2D(Collision2D other) 
     {
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Weapon")
         {
             health -= 1;
         }
     }
+    
     public void TakeDamage(int damage)
     {
         health -= damage;
     }
+
+    
 
 }
