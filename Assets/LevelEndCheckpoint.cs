@@ -8,6 +8,7 @@ public class LevelEndCheckpoint : MonoBehaviour
     public Text timeText; // Reference to the UI text to display the time
     public Text ScoreText; //Should show score
     public Button nextLevelButton; // Reference to the button to move to the next level
+    public GameObject star;
 
     private void Start()
     {
@@ -22,9 +23,26 @@ public class LevelEndCheckpoint : MonoBehaviour
             float timeTaken = Time.timeSinceLevelLoad; // time taken since the level started
             float TextTime =  Mathf.Round(timeTaken * 10.0f) * 0.1f;
             timeText.text = TextTime.ToString("F2") + " s";
-            ScoreText.text = "" + FindAnyObjectByType<Scoreboard>().Score;
-           
-   
+            ScoreText.text = " " + FindAnyObjectByType<Scoreboard>().Score;
+            if (FindAnyObjectByType<Scoreboard>().Score > 7000)
+            { 
+                Instantiate(star,new Vector3(837.2439f, 666.0148f, 0.0f),Quaternion.identity);
+                Instantiate(star, new Vector3(965.8f, 704.1f, 0.0f), Quaternion.identity);
+                Instantiate(star, new Vector3(1097.5f, 665.4f, 0.0f), Quaternion.identity);
+            }
+            else if (FindAnyObjectByType<Scoreboard>().Score >= 3000 && FindAnyObjectByType<Scoreboard>().Score <= 7000)
+            {
+     
+                Instantiate(star, new Vector3(837.2439f, 666.0148f, 0.0f), Quaternion.identity);
+                Instantiate(star, new Vector3(965.8f, 704.1f, 0.0f), Quaternion.identity);
+            }
+            else
+            {
+                
+                Instantiate(star, new Vector3(837.2439f, 666.0148f, 0.0f), Quaternion.identity);
+            }
+
+
             //Debug.Log(FindAnyObjectByType<Scoreboard>().Score);
 
             // Show the checkpoint panel

@@ -2112,6 +2112,7 @@ MonoBehaviour:
   timeText: {fileID: 1975640640}
   ScoreText: {fileID: 1576774913}
   nextLevelButton: {fileID: 1762769974}
+  star: {fileID: 5588249654397248122, guid: d44fb76a1d3be994ebdd0c10b70396c7, type: 3}
 --- !u!4 &643316913
 Transform:
   m_ObjectHideFlags: 0
@@ -4377,11 +4378,11 @@ PrefabInstance:
       objectReference: {fileID: 1402067043}
     - target: {fileID: 5308208004102895835, guid: 641b0e7436f5caa43919732adc977510, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.2
+      value: -5.1
       objectReference: {fileID: 0}
     - target: {fileID: 5308208004102895835, guid: 641b0e7436f5caa43919732adc977510, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.1
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 5308208004102895835, guid: 641b0e7436f5caa43919732adc977510, type: 3}
       propertyPath: m_LocalPosition.z
