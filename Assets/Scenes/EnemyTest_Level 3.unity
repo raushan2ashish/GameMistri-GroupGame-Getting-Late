@@ -1123,6 +1123,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8579987278889229229, guid: 78007db1829e89c4b96214eb4a5012d2, type: 3}
+      propertyPath: m_Size.x
+      value: 0.22851853
+      objectReference: {fileID: 0}
+    - target: {fileID: 8579987278889229229, guid: 78007db1829e89c4b96214eb4a5012d2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 8579987278889229229, guid: 78007db1829e89c4b96214eb4a5012d2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 59843366, guid: e98aa74fa1d188d41b15e7ed4086d592, type: 3}
+    - target: {fileID: 8579987278889229229, guid: 78007db1829e89c4b96214eb4a5012d2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8605292979961217876, guid: 78007db1829e89c4b96214eb4a5012d2, type: 3}
       propertyPath: m_Name
       value: Test Collectable
@@ -1131,7 +1147,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8579987278889229229, guid: 78007db1829e89c4b96214eb4a5012d2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -27226,7 +27243,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -459}
+  m_AnchoredPosition: {x: -11, y: -290}
   m_SizeDelta: {x: 338.1818, y: 78.2566}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1311422548
@@ -33424,11 +33441,11 @@ PrefabInstance:
       objectReference: {fileID: 366807015}
     - target: {fileID: 5308208004102895835, guid: 641b0e7436f5caa43919732adc977510, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 800.91
+      value: 11.13
       objectReference: {fileID: 0}
     - target: {fileID: 5308208004102895835, guid: 641b0e7436f5caa43919732adc977510, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.11
+      value: -0.46
       objectReference: {fileID: 0}
     - target: {fileID: 5308208004102895835, guid: 641b0e7436f5caa43919732adc977510, type: 3}
       propertyPath: m_LocalPosition.z
@@ -35783,10 +35800,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7429245512866370054, guid: a17daaccd2f9ef4489137581ef8eaec3, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 1.23
-      objectReference: {fileID: 0}
     - target: {fileID: 7605055922147436867, guid: a17daaccd2f9ef4489137581ef8eaec3, type: 3}
       propertyPath: m_Name
       value: CheckpointPanel
@@ -35798,7 +35811,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 597298602673231633, guid: a17daaccd2f9ef4489137581ef8eaec3, type: 3}
-    - {fileID: 6109380033977233093, guid: a17daaccd2f9ef4489137581ef8eaec3, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5476219361611869709, guid: a17daaccd2f9ef4489137581ef8eaec3, type: 3}
       insertIndex: 0

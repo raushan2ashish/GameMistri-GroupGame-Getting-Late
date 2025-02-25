@@ -21,8 +21,8 @@ public class LevelEndCheckpoint : MonoBehaviour
             // Display the time taken
             float timeTaken = Time.timeSinceLevelLoad; // time taken since the level started
             float TextTime =  Mathf.Round(timeTaken * 10.0f) * 0.1f;
-            timeText.text = "Time Taken: " + TextTime.ToString("F2") + " seconds";
-            ScoreText.text = "Score:" + FindAnyObjectByType<Scoreboard>().Score;
+            timeText.text = TextTime.ToString("F2") + " s";
+            ScoreText.text = "" + FindAnyObjectByType<Scoreboard>().Score;
            
    
             //Debug.Log(FindAnyObjectByType<Scoreboard>().Score);
