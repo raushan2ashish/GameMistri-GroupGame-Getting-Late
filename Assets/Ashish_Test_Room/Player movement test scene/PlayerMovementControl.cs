@@ -132,7 +132,7 @@ public class PlayerMovementControl : MonoBehaviour
         {
             speed *= shieldSpeedMultiplier;
         }
-        else if (Input.GetKey(KeyCode.LeftShift) && moveInput != 0)
+        else if ((Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.JoystickButton4)) && moveInput != 0)
         {
             speed = runSpeed;
             animator.SetBool("IsRunning", true);
@@ -165,7 +165,7 @@ public class PlayerMovementControl : MonoBehaviour
 
     private void HandleJump()
     {
-        if (!isShielding && Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (!isShielding && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.JoystickButton0)) && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             audioManager.PlaySFX(audioManager.jump);
@@ -176,7 +176,7 @@ public class PlayerMovementControl : MonoBehaviour
 
     private void HandleGlide()
     {
-        if (!isShielding && Input.GetKey(KeyCode.G) && !isGrounded && rb.velocity.y < 0)
+        if (!isShielding && (Input.GetKey(KeyCode.G) || Input.GetKey(KeyCode.JoystickButton1)) && !isGrounded && rb.velocity.y < 0)
         {
             isGliding = true;
             rb.velocity = new Vector2(rb.velocity.x, -glideFallSpeed);
@@ -199,12 +199,12 @@ public class PlayerMovementControl : MonoBehaviour
 
     public void HandleShield()
     {
-        isShielding = Input.GetKey(KeyCode.H);
+        isShielding = Input.GetKey(KeyCode.H) || Input.GetKey(KeyCode.JoystickButton2);
     }
 
     private void HandleAttack()
     {
-        if (Input.GetKeyDown(KeyCode.F) && !isAttacking)
+        if ((Input.GetKeyDown(KeyCode.F) || Input.GetKey(KeyCode.JoystickButton5)) && !isAttacking)
         {
             
             
