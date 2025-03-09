@@ -11100,6 +11100,7 @@ MonoBehaviour:
   timeText: {fileID: 567110239}
   ScoreText: {fileID: 464672064}
   nextLevelButton: {fileID: 216992267}
+  star: {fileID: 6681717501740768021, guid: 287de7c62dcb85e45bf6aa357fce2252, type: 3}
 --- !u!212 &1425456165
 SpriteRenderer:
   m_ObjectHideFlags: 0

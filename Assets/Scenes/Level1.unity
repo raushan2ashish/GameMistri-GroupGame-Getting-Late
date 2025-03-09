@@ -2112,7 +2112,7 @@ MonoBehaviour:
   timeText: {fileID: 1975640640}
   ScoreText: {fileID: 1576774913}
   nextLevelButton: {fileID: 1762769974}
-  star: {fileID: 5588249654397248122, guid: d44fb76a1d3be994ebdd0c10b70396c7, type: 3}
+  star: {fileID: 6681717501740768021, guid: 287de7c62dcb85e45bf6aa357fce2252, type: 3}
 --- !u!4 &643316913
 Transform:
   m_ObjectHideFlags: 0
@@ -2428,6 +2428,18 @@ PrefabInstance:
     - target: {fileID: 145019744232977387, guid: d3ba25590d8f68641b35f5a3a003ade1, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1417580435352889265, guid: d3ba25590d8f68641b35f5a3a003ade1, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1417580435352889265, guid: d3ba25590d8f68641b35f5a3a003ade1, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 1417580435352889265, guid: d3ba25590d8f68641b35f5a3a003ade1, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 4115600743649680711, guid: d3ba25590d8f68641b35f5a3a003ade1, type: 3}
       propertyPath: m_Color.b
@@ -12550,6 +12562,18 @@ PrefabInstance:
     - target: {fileID: 124028430274789226, guid: ed6646880c4d1c6429b32b4c9ff51c15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 903768769919911008, guid: ed6646880c4d1c6429b32b4c9ff51c15, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 903768769919911008, guid: ed6646880c4d1c6429b32b4c9ff51c15, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 903768769919911008, guid: ed6646880c4d1c6429b32b4c9ff51c15, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 1520407401016569672, guid: ed6646880c4d1c6429b32b4c9ff51c15, type: 3}
       propertyPath: m_Name
