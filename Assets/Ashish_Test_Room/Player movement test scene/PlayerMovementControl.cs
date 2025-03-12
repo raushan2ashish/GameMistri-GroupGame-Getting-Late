@@ -176,7 +176,7 @@ public class PlayerMovementControl : MonoBehaviour
 
     private void HandleGlide()
     {
-        if (!isShielding && (Input.GetMouseButton(1) || Input.GetKey(KeyCode.JoystickButton1)) && !isGrounded && rb.velocity.y < 0)
+        if (!isShielding && (Input.GetMouseButton(2) || Input.GetKey(KeyCode.K)|| Input.GetKey(KeyCode.JoystickButton1)) && !isGrounded && rb.velocity.y < 0)
         {
             isGliding = true;
             rb.velocity = new Vector2(rb.velocity.x, -glideFallSpeed);
@@ -199,7 +199,7 @@ public class PlayerMovementControl : MonoBehaviour
 
     public void HandleShield()
     {
-        isShielding = Input.GetMouseButton(2) || Input.GetKey(KeyCode.JoystickButton2);
+        isShielding = Input.GetMouseButton(1) || Input.GetKey(KeyCode.JoystickButton2);
     }
 
     private void HandleAttack()
