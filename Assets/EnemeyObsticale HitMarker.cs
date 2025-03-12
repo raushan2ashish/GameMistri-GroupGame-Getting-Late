@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemeyObsticaleHitMarker : MonoBehaviour
 {
     [SerializeField] public int health = 40;
+    public int Points = 10;
     
     private bool vulnerable;
 
@@ -36,6 +37,11 @@ public class EnemeyObsticaleHitMarker : MonoBehaviour
         health -= damage;
     }
 
-    
+    public void OnDestroy()
+    {
+        int PointBoost = FindAnyObjectByType<Scoreboard>().Score;
+        FindAnyObjectByType<Scoreboard>().Score = PointBoost + Points;
+    }
+
 
 }
