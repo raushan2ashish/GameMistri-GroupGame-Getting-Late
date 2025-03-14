@@ -240,6 +240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bardwire (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
+      propertyPath: m_TagString
+      value: InstantDeath
+      objectReference: {fileID: 0}
     - target: {fileID: 7834265228279709018, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_SortingOrder
       value: 13
@@ -486,6 +490,10 @@ PrefabInstance:
     - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_Name
       value: bardwire (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
+      propertyPath: m_TagString
+      value: InstantDeath
       objectReference: {fileID: 0}
     - target: {fileID: 7834265228279709018, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_SortingOrder
@@ -18703,6 +18711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bardwire (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
+      propertyPath: m_TagString
+      value: InstantDeath
+      objectReference: {fileID: 0}
     - target: {fileID: 7834265228279709018, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_SortingOrder
       value: 13
@@ -20881,6 +20893,10 @@ PrefabInstance:
     - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_Name
       value: bardwire (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
+      propertyPath: m_TagString
+      value: InstantDeath
       objectReference: {fileID: 0}
     - target: {fileID: 7834265228279709018, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_SortingOrder
@@ -24794,6 +24810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bardwire (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
+      propertyPath: m_TagString
+      value: InstantDeath
+      objectReference: {fileID: 0}
     - target: {fileID: 7834265228279709018, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_SortingOrder
       value: 13
@@ -25334,6 +25354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bardwire (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
+      propertyPath: m_TagString
+      value: InstantDeath
+      objectReference: {fileID: 0}
     - target: {fileID: 7834265228279709018, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_SortingOrder
       value: 13
@@ -25684,6 +25708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bardwire (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
+      propertyPath: m_TagString
+      value: InstantDeath
+      objectReference: {fileID: 0}
     - target: {fileID: 7834265228279709018, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_SortingOrder
       value: 13
@@ -25839,6 +25867,10 @@ PrefabInstance:
     - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_Name
       value: bardwire (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
+      propertyPath: m_TagString
+      value: InstantDeath
       objectReference: {fileID: 0}
     - target: {fileID: 7834265228279709018, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_SortingOrder
@@ -26535,6 +26567,10 @@ PrefabInstance:
     - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_Name
       value: bardwire (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
+      propertyPath: m_TagString
+      value: InstantDeath
       objectReference: {fileID: 0}
     - target: {fileID: 7834265228279709018, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_SortingOrder
@@ -33697,6 +33733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bardwire (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
+      propertyPath: m_TagString
+      value: InstantDeath
+      objectReference: {fileID: 0}
     - target: {fileID: 7834265228279709018, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_SortingOrder
       value: 13
@@ -35355,6 +35395,10 @@ PrefabInstance:
     - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_Name
       value: bardwire (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
+      propertyPath: m_TagString
+      value: InstantDeath
       objectReference: {fileID: 0}
     - target: {fileID: 7834265228279709018, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_SortingOrder
@@ -37615,6 +37659,10 @@ PrefabInstance:
     - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_Name
       value: bardwire (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3480361667193537714, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
+      propertyPath: m_TagString
+      value: InstantDeath
       objectReference: {fileID: 0}
     - target: {fileID: 7834265228279709018, guid: 2312419d97c16ec4c8b11cdfd2454fa3, type: 3}
       propertyPath: m_SortingOrder
