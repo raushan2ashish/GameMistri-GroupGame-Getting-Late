@@ -8,12 +8,17 @@ public class LevelEndCheckpoint : MonoBehaviour
     public Text timeText; // Reference to the UI text to display the time
     public Text ScoreText; //Should show score
     public Button nextLevelButton; // Reference to the button to move to the next level
-    public GameObject star;
+    public GameObject star0;
+    public GameObject star1;
+    public GameObject star2;
 
     private void Start()
     {
         // Ensure the panel is hidden at the start
         checkpointPanel.SetActive(false);
+        star0.SetActive(false);
+        star1.SetActive(false);
+        star2.SetActive(false);
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -25,21 +30,25 @@ public class LevelEndCheckpoint : MonoBehaviour
             timeText.text = TextTime.ToString("F2") + " s";
             ScoreText.text = " " + FindAnyObjectByType<Scoreboard>().Score;
             if (FindAnyObjectByType<Scoreboard>().Score > 7000)
-            { 
-                Instantiate(star,new Vector3(837.2439f, 666.0148f, 0.0f),Quaternion.identity);
-                Instantiate(star, new Vector3(965.8f, 704.1f, 0.0f), Quaternion.identity);
-                Instantiate(star, new Vector3(1097.5f, 665.4f, 0.0f), Quaternion.identity);
+            {
+                star0.SetActive(true);
+                star1.SetActive(true);
+                star2.SetActive(true);
+                //Instantiate(star,new Vector3(837.2439f, 666.0148f, 0.0f),Quaternion.identity);
+                //Instantiate(star, new Vector3(965.8f, 704.1f, 0.0f), Quaternion.identity);
+                //Instantiate(star, new Vector3(1097.5f, 665.4f, 0.0f), Quaternion.identity);
             }
             else if (FindAnyObjectByType<Scoreboard>().Score >= 3000 && FindAnyObjectByType<Scoreboard>().Score <= 7000)
             {
-     
-                Instantiate(star, new Vector3(837.2439f, 666.0148f, 0.0f), Quaternion.identity);
-                Instantiate(star, new Vector3(965.8f, 704.1f, 0.0f), Quaternion.identity);
+                star0.SetActive(true);
+                star1.SetActive(true);
+                // Instantiate(star, new Vector3(837.2439f, 666.0148f, 0.0f), Quaternion.identity);
+                // Instantiate(star, new Vector3(965.8f, 704.1f, 0.0f), Quaternion.identity);
             }
             else
             {
-                
-                Instantiate(star, new Vector3(837.2439f, 666.0148f, 0.0f), Quaternion.identity);
+                star0.SetActive(true);
+                // Instantiate(star, new Vector3(837.2439f, 666.0148f, 0.0f), Quaternion.identity);
             }
 
 
