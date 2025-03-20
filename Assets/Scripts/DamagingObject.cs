@@ -35,7 +35,7 @@ public class DamagingObject : MonoBehaviour
     //Checks collision with player to reduce test lives and self-destruct
     public void OnCollisionEnter2D(Collision2D other) 
     {
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player" || other.gameObject.tag == "Ground")
         {
             Destroy(gameObject);
         }
