@@ -8,7 +8,6 @@ public class BrickThrower : MonoBehaviour
     [SerializeField] public float timerTime = 5.0f;
     [SerializeField] public GameObject brickPrefab;
     [SerializeField] public GameObject player;
-    [SerializeField] public GameObject territory;
     [SerializeField] public float brickSpeed = 5.0f;
     public GameObject newBrick;
     public bool isSpawning;

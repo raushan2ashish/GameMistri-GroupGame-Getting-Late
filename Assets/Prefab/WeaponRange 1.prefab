@@ -28,7 +28,19 @@ Transform:
   m_GameObject: {fileID: 2471697859260578444}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 190.296, y: 0.09091568, z: 0}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_LocalPosition: {x: 29.162642, y: -45.509075, z: 0}
+=======
+  m_LocalPosition: {x: 190.296, y: 0.09091568, z: 0}
+>>>>>>> edb6bdaeb2ef0bfeb8f0dd27aa2db42d53d635c4
+=======
+  m_LocalPosition: {x: 190.296, y: 0.09091568, z: 0}
+>>>>>>> 5db0d08b46b4bfdd4de868fc44d40114673d0c4c
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1.812, y: 2.13, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -144,4 +156,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackArea: {fileID: 353985391869625898}
-  attackAreaSwitch: 0
+  attackAreaSwitch: 1
