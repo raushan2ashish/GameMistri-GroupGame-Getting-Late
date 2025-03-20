@@ -2832,19 +2832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: star_Image(Clone) (1)
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
     - target: {fileID: 5588249654397248122, guid: d44fb76a1d3be994ebdd0c10b70396c7, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
-=======
->>>>>>> 5db0d08b46b4bfdd4de868fc44d40114673d0c4c
->>>>>>> Stashed changes
     - target: {fileID: 7031523629629877815, guid: d44fb76a1d3be994ebdd0c10b70396c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 201.24878
@@ -5621,9 +5612,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1726334196}
-  - {fileID: 2092932406}
-  - {fileID: 784063123}
-  - {fileID: 1886442089}
   - {fileID: 1909630170}
   - {fileID: 2054980797}
   - {fileID: 1744989837}
@@ -6890,29 +6878,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: star_Image(Clone)
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
     - target: {fileID: 5588249654397248122, guid: d44fb76a1d3be994ebdd0c10b70396c7, type: 3}
       propertyPath: m_IsActive
       value: 0
-=======
-<<<<<<< HEAD
-    - target: {fileID: 7031523629629877815, guid: d44fb76a1d3be994ebdd0c10b70396c7, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 117.24432
-      objectReference: {fileID: 0}
-    - target: {fileID: 7031523629629877815, guid: d44fb76a1d3be994ebdd0c10b70396c7, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 114.85447
-      objectReference: {fileID: 0}
-    - target: {fileID: 7031523629629877815, guid: d44fb76a1d3be994ebdd0c10b70396c7, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 7.94236
-=======
-    - target: {fileID: 5588249654397248122, guid: d44fb76a1d3be994ebdd0c10b70396c7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
->>>>>>> 5db0d08b46b4bfdd4de868fc44d40114673d0c4c
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 7031523629629877815, guid: d44fb76a1d3be994ebdd0c10b70396c7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30414,19 +30382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: star_Image(Clone)
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
     - target: {fileID: 5588249654397248122, guid: d44fb76a1d3be994ebdd0c10b70396c7, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
-=======
->>>>>>> 5db0d08b46b4bfdd4de868fc44d40114673d0c4c
->>>>>>> Stashed changes
     - target: {fileID: 7031523629629877815, guid: d44fb76a1d3be994ebdd0c10b70396c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 73.492676
