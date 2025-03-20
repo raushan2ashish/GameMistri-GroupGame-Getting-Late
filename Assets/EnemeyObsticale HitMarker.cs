@@ -39,8 +39,8 @@ public class EnemeyObsticaleHitMarker : MonoBehaviour
 
     public void OnDestroy()
     {
-        int PointBoost = FindAnyObjectByType<Scoreboard>().Score;
-        FindAnyObjectByType<Scoreboard>().Score = PointBoost + Points;
+        //int PointBoost = FindAnyObjectByType<Scoreboard>().Score;
+        //FindAnyObjectByType<Scoreboard>().Score = PointBoost + Points;
     }
 
 
