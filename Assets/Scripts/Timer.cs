@@ -19,7 +19,7 @@ public class Timer : MonoBehaviour
     {
         
         timer += Time.deltaTime;
-        text.text = "Time: " + TextTimer;
+        text.text = "" + TextTimer;
         TextTimer = Mathf.Round(timer * 10.0f) * 0.1f;
         if (timer < 0.0f)
         {
