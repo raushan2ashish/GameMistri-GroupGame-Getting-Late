@@ -5,11 +5,15 @@ using UnityEngine;
 public class IgorStage : MonoBehaviour
 {
     public EnemeyObsticaleHitMarker healthCheck;
+    public GameObject stage2;
+    public GameObject stage3;
     
     // Start is called before the first frame update
     public void Start()
     {
         healthCheck = GetComponent<EnemeyObsticaleHitMarker>();
+        stage2.SetActive(false);
+        stage3.SetActive(false);
     }
 
     // Update is called once per frame
@@ -17,11 +21,11 @@ public class IgorStage : MonoBehaviour
     {
         if(healthCheck.health <= 600 && healthCheck.health > 400)
         {
-            Debug.Log("Stage2");
+            stage2.SetActive(true);
         }
         else if(healthCheck.health <= 400 && healthCheck.health > 0)
         {
-            Debug.Log("Stage3");
+            stage3.SetActive(true);
         }
     }
 }
