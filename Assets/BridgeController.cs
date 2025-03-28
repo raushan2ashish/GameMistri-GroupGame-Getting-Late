@@ -23,12 +23,26 @@ public class BridgeController : MonoBehaviour
     void Update()
     {
         timer -= Time.deltaTime;
+        if (timer > 0 && timer <= 1 && !isOpening)
+        {
+            FindAnyObjectByType<BridgeSigns>().Color = "Yellow";
+        }
+        else if (isOpening)
+        {
+            FindAnyObjectByType<BridgeSigns>().Color = "Red";
+        }
+        else
+        {
+            FindAnyObjectByType<BridgeSigns>().Color = "Green";
+        }
 
         if (timer <= 0)
         {
             isOpening = !isOpening; // Switch between opening and closing
             timer = waitTime; // Reset the timer
         }
+
+
 
         RotateDoors();
     }
