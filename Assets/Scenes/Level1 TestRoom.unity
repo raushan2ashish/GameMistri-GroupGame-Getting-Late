@@ -37901,6 +37901,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1c9ebcba34f38f49b2267d6bcf4dbd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1371194785 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4117485760593020087, guid: dfa72948315d82e45b031b4c6402f30a, type: 3}
+  m_PrefabInstance: {fileID: 1669724681923116079}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82fd2890f018ed48b6ed4452c5d0be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1374170630
 GameObject:
   m_ObjectHideFlags: 0
@@ -64409,6 +64420,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 520558043}
+    - target: {fileID: 791703416812952356, guid: dfa72948315d82e45b031b4c6402f30a, type: 3}
+      propertyPath: igorStage
+      value: 
+      objectReference: {fileID: 1371194785}
+    - target: {fileID: 830324927756354096, guid: dfa72948315d82e45b031b4c6402f30a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.4575
+      objectReference: {fileID: 0}
+    - target: {fileID: 830324927756354096, guid: dfa72948315d82e45b031b4c6402f30a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.408
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029346838760558965, guid: dfa72948315d82e45b031b4c6402f30a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.538
+      objectReference: {fileID: 0}
     - target: {fileID: 2947176614389281651, guid: dfa72948315d82e45b031b4c6402f30a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21
@@ -64453,6 +64480,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossFinal
       objectReference: {fileID: 0}
+    - target: {fileID: 4117485760593020087, guid: dfa72948315d82e45b031b4c6402f30a, type: 3}
+      propertyPath: waitTime
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4117485760593020087, guid: dfa72948315d82e45b031b4c6402f30a, type: 3}
+      propertyPath: timerTime
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4178096682973717741, guid: dfa72948315d82e45b031b4c6402f30a, type: 3}
       propertyPath: player
       value: 
@@ -64477,6 +64512,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 520558043}
+    - target: {fileID: 7968331638533024968, guid: dfa72948315d82e45b031b4c6402f30a, type: 3}
+      propertyPath: waitTime
+      value: 1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968331638533024968, guid: dfa72948315d82e45b031b4c6402f30a, type: 3}
+      propertyPath: timerTime
+      value: 1200
+      objectReference: {fileID: 0}
     - target: {fileID: 8305699984169345607, guid: dfa72948315d82e45b031b4c6402f30a, type: 3}
       propertyPath: player
       value: 

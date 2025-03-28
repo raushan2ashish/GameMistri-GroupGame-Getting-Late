@@ -37,13 +37,14 @@ public class IgorStage : MonoBehaviour
 
         if(timerTime <= 0 && isAttacking == false)
         {
-            isAttacking = true;
+            //bossPush.SetBool("isAttacking", false);
             bossPush.SetTrigger("Attack");
-            attackTimerTime = attackWaitTime;
-               
-            timerTime = waitTime;
-            isAttacking = false;   
-            igorTerritory.PushPlayer();     
+            isAttacking = true;
+            //bossPush.SetTrigger("Attack");
+            //timerTime = waitTime;   
+            igorTerritory.PushPlayer();
+            timerTime = waitTime; 
+            isAttacking = false;    
         }
         
         
@@ -57,5 +58,10 @@ public class IgorStage : MonoBehaviour
             stage3.SetActive(true);
             waitTime = 3;
         }
+    }
+
+    public void AttackEnd()
+    {
+        bossPush.SetBool("isAttacking", false);
     }
 }

@@ -16,6 +16,7 @@ public class IgorTerritory : MonoBehaviour
     public float ePush;
     public float ePlayer;
     [SerializeField] public float attackPower = 10.0f;
+    [SerializeField] public IgorStage igorStage; 
     public Rigidbody2D playerRigBod;
     public PlayerMovementControl playerMovCon;
     public BrickThrower brickThrower;
@@ -45,8 +46,11 @@ public class IgorTerritory : MonoBehaviour
         
         if(ePush >= ePlayer)
         {
+            //igorStage.bossPush.SetBool("isAttacking", true);
+            
             playerRigBod.velocity = new Vector3(-1, 1) * attackPower;
             brickThrower.ObjectSpawner();
+            //igorStage.bossPush.ResetTrigger("Attack");
         }
     } 
 
