@@ -37,7 +37,7 @@ public class PlayerMovementControl : MonoBehaviour
     [SerializeField] public float attackPos = 1.5f;
 
     // Ladder Climbing
-    private bool isClimbing = false;
+    public bool isClimbing = false;
     private Rigidbody2D rb;
     private Animator animator;
     private bool facingRight = true;
@@ -84,7 +84,7 @@ public class PlayerMovementControl : MonoBehaviour
         }
     }
 
-    private void Update()
+    public void Update()
     {
         if (isDead) return;
 
@@ -123,7 +123,7 @@ public class PlayerMovementControl : MonoBehaviour
         animator.SetBool("IsAttacking", isAttacking);
     }
 
-    private void HandleMovement()
+    public void HandleMovement()//chaged this to check
     {
         float moveInput = Input.GetAxisRaw("Horizontal");
         float speed = walkSpeed;
@@ -236,7 +236,7 @@ public class PlayerMovementControl : MonoBehaviour
         animator.SetBool("IsAttacking", false);
     }
 
-    private void HandleClimbLadder()
+    public void HandleClimbLadder()
     {
         if (isClimbing && !isShielding)
         {

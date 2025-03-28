@@ -7,6 +7,7 @@ public class IgorTerritory : MonoBehaviour
     public GameObject switchButton;
     public bool isPushing;
     [SerializeField]public GameObject player;
+    [SerializeField]public GameObject pushSpawner;
     [SerializeField]public GameObject pushLimit;
     [SerializeField]public GameObject pushLimitEnd;
     public Vector2 playerPos;
@@ -16,6 +17,8 @@ public class IgorTerritory : MonoBehaviour
     public float ePlayer;
     [SerializeField] public float attackPower = 10.0f;
     public Rigidbody2D playerRigBod;
+    public PlayerMovementControl playerMovCon;
+    public BrickThrower brickThrower;
 
     public void Start() 
     {
@@ -23,7 +26,9 @@ public class IgorTerritory : MonoBehaviour
         playerPos = player.transform.position;
         pushPos = pushLimit.transform.position; 
         pushEnd = pushLimitEnd.transform.position;
-        playerRigBod = player.GetComponent<Rigidbody2D>();  
+        playerRigBod = player.GetComponent<Rigidbody2D>(); 
+        playerMovCon = player.GetComponent<PlayerMovementControl>();
+        brickThrower = pushSpawner.GetComponent<BrickThrower>();
     }
 
     public void Update() 
@@ -41,7 +46,9 @@ public class IgorTerritory : MonoBehaviour
         if(ePush >= ePlayer)
         {
             playerRigBod.velocity = new Vector3(-1, 1) * attackPower;
-            Debug.Log("WORKIN");
+            brickThrower.ObjectSpawner();
+            brickThrower.ObjectSpawner();
+            brickThrower.ObjectSpawner();
         }
     } 
 
