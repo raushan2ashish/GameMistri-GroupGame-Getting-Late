@@ -11,8 +11,9 @@ public class IgorStage : MonoBehaviour
     public GameObject stage3;
 
     [SerializeField] public float waitTime = 3.0f;
-    [SerializeField] public float waitTimeAftermath = 0.3f;
+    [SerializeField] public float attackWaitTime = 0.2f;
     [SerializeField] public float timerTime = 3.0f;
+    [SerializeField] public float attackTimerTime = 0.2f;
 
     public bool isAttacking = false;
     
@@ -24,6 +25,7 @@ public class IgorStage : MonoBehaviour
         stage2.SetActive(false);
         stage3.SetActive(false);
         timerTime = waitTime;
+        attackTimerTime = attackWaitTime;
         isAttacking = false;
     }
 
@@ -31,25 +33,29 @@ public class IgorStage : MonoBehaviour
     public void Update()
     {
         timerTime -= Time.deltaTime;
+        attackTimerTime -= Time.deltaTime;
 
         if(timerTime <= 0 && isAttacking == false)
         {
             isAttacking = true;
             bossPush.SetTrigger("Attack");
-            igorTerritory.PushPlayer();   
+            attackTimerTime = attackWaitTime;
+               
             timerTime = waitTime;
-            isAttacking = false;        
+            isAttacking = false;   
+            igorTerritory.PushPlayer();     
         }
+        
         
         if(healthCheck.health <= 600 && healthCheck.health > 400)
         {
             stage2.SetActive(true);
-            waitTime *= 2/3;
+            waitTime = 5;
         }
         else if(healthCheck.health <= 400 && healthCheck.health > 0)
         {
             stage3.SetActive(true);
-            waitTime *= 1/3;
+            waitTime = 3;
         }
     }
 }

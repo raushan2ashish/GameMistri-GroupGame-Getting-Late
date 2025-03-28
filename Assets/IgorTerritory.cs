@@ -47,8 +47,6 @@ public class IgorTerritory : MonoBehaviour
         {
             playerRigBod.velocity = new Vector3(-1, 1) * attackPower;
             brickThrower.ObjectSpawner();
-            brickThrower.ObjectSpawner();
-            brickThrower.ObjectSpawner();
         }
     } 
 
