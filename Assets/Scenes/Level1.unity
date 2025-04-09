@@ -2223,6 +2223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TutorialBox
       objectReference: {fileID: 0}
+    - target: {fileID: 8058472175995715819, guid: 99a9e5e18c1f62845990984f8cc2bcbd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5682,6 +5686,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+    - target: {fileID: 3880545212754762689, guid: 641b0e7436f5caa43919732adc977510, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 215a37692e906e249b461068fc8f332e, type: 2}
     - target: {fileID: 5308208004102895835, guid: 641b0e7436f5caa43919732adc977510, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.15

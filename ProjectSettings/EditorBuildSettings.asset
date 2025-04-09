@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalCutscene.unity
     guid: 54f5772f16fd09e4f85c17a9503083b0
+  - enabled: 1
+    path: Assets/Scenes/DemoLevel.unity
+    guid: 66e5fd1e17824b047b6bac5f90ee163d
+  - enabled: 1
+    path: Assets/Scenes/DemoFinalCutscene 1.unity
+    guid: 598620fab183ef545b92fe0be9b0841f
   m_configObjects: {}

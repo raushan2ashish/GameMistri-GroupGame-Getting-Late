@@ -233,6 +233,7 @@ MonoBehaviour:
   attackBox: {fileID: 0}
   weapon: {fileID: 2471697859260578444, guid: 922313b79f68aba4aa2eefba738ea5ba, type: 3}
   attackPos: 1.5
+  isClimbing: 0
   isShielding: 0
   drawGizmos: 0
   audioManager: {fileID: 0}
@@ -266,7 +267,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8451642870238742774}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 215a37692e906e249b461068fc8f332e, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

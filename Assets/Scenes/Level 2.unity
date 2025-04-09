@@ -14673,6 +14673,10 @@ PrefabInstance:
       propertyPath: playerControl
       value: 
       objectReference: {fileID: 366807015}
+    - target: {fileID: 3880545212754762689, guid: 641b0e7436f5caa43919732adc977510, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 215a37692e906e249b461068fc8f332e, type: 2}
     - target: {fileID: 5308208004102895835, guid: 641b0e7436f5caa43919732adc977510, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.09
