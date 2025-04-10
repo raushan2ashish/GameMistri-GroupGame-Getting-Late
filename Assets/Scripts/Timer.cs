@@ -17,14 +17,16 @@ public class Timer : MonoBehaviour
     // Update is called once per frameW 
     void Update()
     {
-        
+
         timer += Time.deltaTime;
-        text.text = "" + TextTimer;
-        TextTimer = Mathf.Round(timer * 10.0f) * 0.1f;
+
         if (timer < 0.0f)
         {
             timer = 0.0f;
         }
+
+        TextTimer = Mathf.Round(timer * 10.0f) * 0.1f;
+        text.text = TextTimer.ToString("F1"); // Show 1 decimal place, even for whole numbers like 30.0
     }
 
     public void TimePowerUp()
