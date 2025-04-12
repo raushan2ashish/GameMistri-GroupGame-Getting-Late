@@ -20,11 +20,11 @@ public class BridgeSigns : MonoBehaviour
     {
         if (Color == "Green") 
         {
-            SpriteRenderer.sprite = GreenLight;
+            SpriteRenderer.sprite = RedLight;
         }
         if (Color == "Yellow")
         {
-            SpriteRenderer.sprite = YellowLight;
+            SpriteRenderer.sprite = RedLight;
         }
         if (Color == "Red")
         {

@@ -25,7 +25,7 @@ public class BridgeController : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer > 0 && timer <= 1 && !isOpening)
         {
-            FindAnyObjectByType<BridgeSigns>().Color = "Yellow";
+            FindAnyObjectByType<BridgeSigns>().Color = "Red";
         }
         else if (isOpening)
         {
@@ -33,7 +33,7 @@ public class BridgeController : MonoBehaviour
         }
         else
         {
-            FindAnyObjectByType<BridgeSigns>().Color = "Green";
+            FindAnyObjectByType<BridgeSigns>().Color = "Red";
         }
 
         if (timer <= 0)
