@@ -1095,7 +1095,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 23551
+    rgba: 4278213631
   m_fontColor: {r: 1, g: 0.3582713, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1211,7 +1211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9226169faecc1364e9a80f77fe071487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeTime: 8
+  changeTime: 11
   sceneName: Level1
 --- !u!4 &1705155921
 Transform:
@@ -1295,7 +1295,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 23551
+    rgba: 4278213631
   m_fontColor: {r: 1, g: 0.3582713, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
